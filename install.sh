@@ -12,7 +12,7 @@ putih="\033[37m"
 
 menu() {
 clear
-    echo -e -n $hijau;figlet "Turtorial"
+    echo -e -n $hijau;figlet "Install Pemula"
     echo -e $merah"belajar program bash di termux"
     echo -e $kuning"1."$ungu" install bahan"
     echo -e $kuning"2."$biru" Mencoba spam!"
