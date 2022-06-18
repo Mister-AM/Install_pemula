@@ -32,7 +32,7 @@ mainmenu() {
     echo "(+) program berhasil di jalankan"
     menu
     elif [ $pil == "2" ];then
-    git clone https://github.com/MrAM0/SP_WA
+    git clone https://github.com/Mister-AM/SP_WA
     cd SP_WA
     python hai.py
     menu
