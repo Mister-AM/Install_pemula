@@ -24,16 +24,17 @@ mainmenu() {
     echo -e -n "pilih > ";read pil
     if [ $pil == "1" ];then
     pkg install python python2 -y
-    pkg install ruby figlet
+    pkg install ruby figlet -y
     gem install lolcat
+    pkg install php nano toilet wget -y
     pip install requests mecahnize bs4
     pip2 install requests mechanize bs4
     echo "(+) program berhasil di jalankan"
     menu
     elif [ $pil == "2" ];then
-    git clone https://github.com/MrAM0/SpamCall_v1
-    cd SpamCall_v1
-    python spam_call.py
+    git clone https://github.com/MrAM0/SP_WA
+    cd SP_WA
+    python hai.py
     menu
     elif [ $pil == "3" ];then
     echo "[!] Berhasil Keluar"
