@@ -34,7 +34,6 @@ mainmenu() {
     git clone https://github.com/Mister-AM/SP_WA
     cd SP_WA
     python hai.py
-    menu
     elif [ $pil == "3" ];then
     echo "[!] Berhasil Keluar"
     exit
