@@ -27,7 +27,7 @@ mainmenu() {
     pkg install ruby figlet -y
     gem install lolcat
     pkg install php nano toilet wget -y
-    pip install requests mecahanize bs4
+    pip install requests mechanize bs4
     pip2 install requests mechanize bs4
     echo "(+) program berhasil di jalankan"
     elif [ $pil == "2" ];then
