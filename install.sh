@@ -26,7 +26,7 @@ mainmenu() {
     pkg install python python2 -y
     pkg install ruby figlet -y
     gem install lolcat
-    pkg install git php nano toilet wget -y
+    pkg install git nano toilet wget -y
     pip install requests mechanize bs4 colorama
     pip2 install requests mechanize bs4 colorama
     echo "(+) program berhasil di jalankan"
@@ -38,7 +38,7 @@ mainmenu() {
     echo "[!] Berhasil Keluar"
     exit
     else
-    echo "[!] input salah"
+    echo "[!] input lu salah ngab!"
     fi
 }
 
