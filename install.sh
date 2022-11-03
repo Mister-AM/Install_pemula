@@ -26,14 +26,14 @@ mainmenu() {
     pkg install python python2 -y
     pkg install ruby figlet -y
     gem install lolcat
-    pkg install php nano toilet wget -y
+    pkg install git php nano toilet wget -y
     pip install requests mechanize bs4
     pip2 install requests mechanize bs4
     echo "(+) program berhasil di jalankan"
     elif [ $pil == "2" ];then
-    git clone https://github.com/Mister-AM/SP_WA
-    cd SP_WA
-    python hai.py
+    git clone https://github.com/Mister-AM/SpamWS
+    cd SpamWS
+    python SpamWS.py
     elif [ $pil == "3" ];then
     echo "[!] Berhasil Keluar"
     exit
