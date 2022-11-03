@@ -27,8 +27,8 @@ mainmenu() {
     pkg install ruby figlet -y
     gem install lolcat
     pkg install git php nano toilet wget -y
-    pip install requests mechanize bs4
-    pip2 install requests mechanize bs4
+    pip install requests mechanize bs4 colorama
+    pip2 install requests mechanize bs4 colorama
     echo "(+) program berhasil di jalankan"
     elif [ $pil == "2" ];then
     git clone https://github.com/Mister-AM/SpamWS
